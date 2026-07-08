@@ -22,18 +22,26 @@ python3 MorseCodeTranslator.py
 ---
 ## نمونه خروجی encode :
 ```
-1.encode
+1.encode 
 2.decode
+3.Exit
 -----
 1
 -----
-enter a word :hello
-result : .... . .-.. .-.. ---
+result:  .... . .-.. .-.. ---
+1.encode 
+2.decode
+3.Exit
+-----
+3
+-----
+Good bye!
 ```
 ## نمونه خروجی decode :
 ```
-1.encode
+1.encode 
 2.decode
+3.Exit
 -----
 2
 -----
@@ -43,7 +51,15 @@ en
 en
 -----
 enter a morse :.... . .-.. .-.. ---
-result :HELLO
+result:  HELLO 
+-----
+1.encode 
+2.decode
+3.Exit
+-----
+3
+-----
+Good bye!
 ```
 ---
 ### نویسنده : [FinalTry](https://github.com/RealFinalTry)
