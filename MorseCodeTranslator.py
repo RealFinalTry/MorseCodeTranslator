@@ -48,12 +48,17 @@ def decode(morse, lang='en'):
         else:
             result.append('?')
     return ''.join(result)
-
-choose = input("1.encode \n2.decode\n-----\n")
-if choose == "1" :
-    text = input("-----\nenter a word :")
-    print("result: ",encode(text))
-if choose == "2" :
-    lang = input("-----\nfa\nen\n-----\n")
-    morse = input("-----\nenter a morse :")
-    print("result: ",decode(morse,lang))
+while True :
+    choose = input("1.encode \n2.decode\n3.Exit\n-----\n")
+    if choose == "1" :
+        text = input("-----\nenter a word :")
+        print("result: ",encode(text),"\n-----")
+    elif choose == "2" :
+        lang = input("-----\nfa\nen\n-----\n")
+        morse = input("-----\nenter a morse :")
+        print("result: ",decode(morse,lang),"\n-----")
+    elif choose == "3" :
+        print("\n-----\nGood bye!")
+        break
+    else :
+        print("-----\nplease choose 1 , 2 or 3 !\n-----")
